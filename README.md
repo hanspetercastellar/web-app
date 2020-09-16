@@ -1,7 +1,5 @@
 # Web - Sakila min
 
-\_El Archivo de base de datos se encuentra adjunto en una carpeta con nombre "Basde_de_datos"
-
 ### Instalación 📋
 
 ```
@@ -24,14 +22,16 @@ hanspeter1512@gmail.com
 
 ```
 
-\_Crear un nuevo usuario usando cliente HTTP
+O pude Crear un nuevo usuario usando un cliente HTTP
 
-EndPoint: http://localhost:3002/api/login
+EndPoint:(POST) http://localhost:3002/api/staff/post
 
 ```
 {
-	"user": "Mike.Hillyer@sakilastaff.com",
-	"pass": "null"
+    "firs_name":"pedrito Perez test5",
+	"last_name":"De los peres test5",
+	"email":"tezst5@email.com",
+	"username":"testUser5", "password":"123456"
 }
 
 ```
